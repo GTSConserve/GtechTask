@@ -1,0 +1,26 @@
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+}
+.qtyBtn {
+  display: flex;
+  flex-direction: row;
+}
+.qtyBtn p {
+  width: 20px;
+  text-align: center;
+  align-self: center;
+}
+.qtyBtn button {
+  width: 20px;
+  align-self: center;
+}
+.nodata {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.headerTitle {
+  font-size: 25px;
+  font-weight: bold;
+}

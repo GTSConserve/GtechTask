@@ -1,0 +1,55 @@
+.itemContainer {
+  width: 250px;
+
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.itemContainer img {
+  width: 100%;
+  height: 190px;
+}
+.itemDetails {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.foodInfo {
+  flex: 1;
+}
+.foodInfo p:first-child {
+  font-size: 17px;
+  font-weight: bold;
+}
+.foodInfo p:nth-child(2) {
+  color: #707070;
+  font-size: 14px;
+  margin: 5px 0px;
+}
+.addContainer {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.addContainer span {
+  font-size: 8px;
+  color: red;
+}
+.addBtn {
+  padding: 3px 10px;
+  background-color: #09fc95;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.qtyBtn {
+  display: flex;
+  flex-direction: row;
+}
+.qtyBtn p {
+  width: 20px;
+  text-align: center;
+}
+.qtyBtn button {
+  width: 20px;
+}
